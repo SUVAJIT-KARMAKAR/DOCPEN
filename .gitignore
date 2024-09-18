@@ -1,0 +1,37 @@
+# DEPENDENCIES
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# TESTING
+/coverage
+
+# NEXT CONFIG
+/.next/
+/out/
+
+# PRODUCTION
+/build
+
+# MISC
+.DS_Store
+*.pem
+
+# DEBUG
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# LOCAL ENVIRONMENTAL FILES
+.env*.local
+
+# VERCEL
+.vercel
+
+# TYPESCRIPT
+*.tsbuildinfo
+next-env.d.ts
+
+# SENTRY CONFIG
+.env.sentry-build-plugin
